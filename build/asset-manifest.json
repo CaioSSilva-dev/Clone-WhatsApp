@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clonewhatsapp/static/css/main.9a3f00e2.css",
+    "main.js": "/clonewhatsapp/static/js/main.63ef7d31.js",
+    "index.html": "/clonewhatsapp/index.html",
+    "main.9a3f00e2.css.map": "/clonewhatsapp/static/css/main.9a3f00e2.css.map",
+    "main.63ef7d31.js.map": "/clonewhatsapp/static/js/main.63ef7d31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a3f00e2.css",
+    "static/js/main.63ef7d31.js"
+  ]
+}
