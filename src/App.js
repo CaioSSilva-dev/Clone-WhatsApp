@@ -16,15 +16,20 @@ export default function App() {
 const [showNewChat, setShowNewChat] = useState()
 const [chatlist, setChatlist] = useState([])
 const [activeChat, setActiveChat] = useState({})
-const [user, setuser] = useState(null)
+//Desativar Login com Facebook
+const [user, setuser] = useState({
+  id:'E77kt8N5JbXjHINNx3TQWm8iw9m1',
+  name:'Caio Souza',
+  avatar:'https://pbs.twimg.com/profile_images/1500892638718877700/1CDY4M5u_400x400.jpg'
+})
 
-
+/*
 useEffect(()=> {
-  if(user !== null){
+  if(user !== null){*/
     let unsub  =- api.onChatLIst(user.id, setChatlist)
-    return unsub
+/*    return unsub
   }
-}, [user])
+}, [user])*/
 
 
 const handleLoginData = async (u) => {
@@ -55,6 +60,7 @@ const handleNewChat = () =>{
           chatList = {chatlist}
           />
         <header>
+          
           <img src= {user.avatar}className='header-avatar'></img>
           <div className='header-buttons'>
               <div className='header-button'>
