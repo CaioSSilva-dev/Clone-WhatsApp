@@ -16,7 +16,7 @@ export default function App() {
 const [showNewChat, setShowNewChat] = useState()
 const [chatlist, setChatlist] = useState([])
 const [activeChat, setActiveChat] = useState({})
-//Desativar Login com Facebook
+//Desativar Login com Facebook(null)
 const [user, setuser] = useState({
   id:'E77kt8N5JbXjHINNx3TQWm8iw9m1',
   name:'Caio Souza',

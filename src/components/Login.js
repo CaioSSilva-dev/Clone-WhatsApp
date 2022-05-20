@@ -14,6 +14,7 @@ export default function Login({onReceive}) {
   return (
     <div className='login'>
         <button onClick={handleFacebookLogin}>Logar com Facebook</button>
+        <a href="https://www.iubenda.com/privacy-policy/44143903" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Política de Privacidade ">Política de Privacidade</a>
     </div>
   )
 }
